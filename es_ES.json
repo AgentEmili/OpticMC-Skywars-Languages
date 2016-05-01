@@ -1,0 +1,163 @@
+﻿{
+	"langData":{
+		"langOwn":"Español",
+		"langMiniOwn":"Español",
+		"langPortuguese":"Espanhol",
+		"langEnglish":"Spanish",
+		"langFrancais":"Espanol",
+		"translators":"AgentEmily;Innover;"
+	},"game":{
+		"lobby":{
+			"startingCountdown":{
+				"message":"§6Game starting in §c%s seconds§6."
+			},
+			"playerJoin":"§c%s §6has joined! (§c%s§6/§c64§6)",
+			"playerJoinSpectator":"§c%s §6joined as §c§lspectator§6.",
+			"serverMapSelected":"§6You are playing on map §c%s §6(Voted by §c%s players§6).",
+			"mapVoted":"§eYou voted for map §6%s§e!"
+		},"game":{
+			"deathMessage":{
+				"until1":[
+					"until",
+					"and",
+					"and end up"
+				],"foughtWith":"fought with",
+				"tookDamageFrom":"was damaged by",
+				"diedFor":"died for",
+				"diedInCombat":[
+					"died during combat",
+					"was killed on a fight"
+				],"fallenInVoid":[
+					"slipped from the borders",
+					"failed in parkouring",
+					"jumped to void"
+				],"pushInVoid":[
+					"was thrown into the void by",
+					"got pushed right to void by"
+				],"diedFighting":[
+					"died in combat by",
+					"was killed by",
+					"fought until their death with"
+				],"fallen":[
+					"has fallen to their death",
+					"fallen from a high place",
+					"didn't bounce",
+					"forgot they couldn't fly"
+				],"pushed":[
+					"was pushed from a place too high by",
+					"was thrown into the pit of death by"
+				],"putOnLava":[
+					"was thrown into lava by %s",
+					"slipped into %s's lava"
+				],"fallenOnLava":[
+					"tried to swim in lava",
+					"fell into their own lava pool",
+					"tried to drink apple juice that's actually lava"
+				],"suffocated":[
+					"suffocated on their own block",
+					"forgot not everything breaks the laws of gravity"
+				],"suffocatedOther":[
+					"got suffocated into the block of",
+					"lost oxygen on the block of"
+				],"blockDrop":[
+					"died by something that looked like a meteor",
+					"received a block in their head",
+					"got blocked"
+				],"blockDropOther":[
+					"died by %s's \"meteor\"",
+					"received %s's block on their head",
+					"got blocked by %s"
+				],"blockDropSuffocated":[
+					"got blocked and suffocated in it",
+					"was hit by a meteor and died inside of it"
+				],"blockDropSuffocated":[
+					"got block by %s and suffocated in their block",
+					"was hit by %s's meteor and died stuck in it"
+				],"exploded":[
+					"blew up",
+					"got exploded"
+				],"explodedEntity":[
+					"got exploded by a",
+					"blew up thanks to"
+				]
+			},"damages":{
+				"blockExplosion":{
+					"name":"Explosion",
+					"description":"Damage from a explosive block's explosion event (TNT or other)."
+				},"contact":{
+					"name":"Contact",
+					"description":"Damage caused by contact to a block like cactus."
+				},"custom":{
+					"name":"Custom",
+					"description":"Anti-cheat damage."
+				},"drowning":{
+					"name":"Drowning",
+					"description":"Damage from trying to swim without ability to swim."
+				},"entityAttack":{
+					"name":"Entity Attack",
+					"description":"Attack from an entity."
+				},"entityExplosion":{
+					"name":"Entity Explosion",
+					"description":"Explosion damage from a exploding entity like Creeper."
+				},"fall":{
+					"name":"Fall",
+					"description":"Damage given to falling from a high distance."
+				},"fallingBlock":{
+					"name":"Falling Block",
+					"description":"Damage from being struck by a falling block (Sand, Gravel, etc.)."
+				},"fire":{
+					"name":"Fire",
+					"description":"Damage caused by direct contact to fire."
+				},"fireTick":{
+					"name":"On Fire",
+					"description":"Damage caused indirectly by being on fire."
+				},"lava":{
+					"name":"Lava",
+					"description":"Damage caused for swimming on lava."
+				},"lighting":{
+					"name":"Lighting",
+					"description":"Damage from being struck by a lighting."
+				},"magic":{
+					"name":"Potion",
+					"description":"Damage caused by a potion."
+				},"melting":{
+					"name":"Melting",
+					"description":"Damage caused to melting by rain or swimming."
+				},"poison":{
+					"name":"Poison",
+					"description":"Damage caused by having the Poison effect."
+				},"projectile":{
+					"name":"Projectile",
+					"description":"Damage caused by being hit by a projectile."
+				},"starvation":{
+					"name":"Starving",
+					"description":"Damage caused by extreme hunger."
+				},"suicide":{
+					"name":"Suicide",
+					"description":"Suicided."
+				},"thorns":{
+					"name":"Thorns",
+					"description":"Damage caused by hitting player with armor that has the Thorns enchanment.",
+					"descriptionPlayer":"Damage caused by hitting %s."
+				},"void":{
+					"name":"Void",
+					"description":"Damage caused to exposition to Void."
+				},"wither":{
+					"name":"Withering",
+					"description":"Damage caused by having the Wither effect."
+				}
+			},"dollarsReceive":"§a+$%s"
+		},"scoreboard":{
+			"preGame":{
+				"maps":"Maps:",
+				"votes":"votes",
+				"vote":"vote",
+				"kit":"Kit:"
+			},"game":{
+				"kills":"Kills:",
+				"assists":"Assists:",
+				"lives":"Lives:"
+			},"players":"Players:"
+		}
+	}
+}
