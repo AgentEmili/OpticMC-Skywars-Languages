@@ -1,0 +1,163 @@
+{
+	"langData":{
+		"langOwn":"Português Brasileiro",
+		"langMiniOwn":"Português",
+		"langEnglish":"Brazilian Portuguese",
+		"langSpanish":"Português Brasileiro",
+		"langFrancais":"Portugais Brésilien",
+		"translators":"deprilula28;"
+	},"game":{
+		"lobby":{
+			"startingCountdown":{
+				"message":"§6Partida iniciando em §c%s segundos§6."
+			},
+			"playerJoin":"§c%s §6entrou! (§c%s§6/§c64§6)",
+			"playerJoinSpectator":"§c%s §6entrou como §c§lespectador§6.",
+			"serverMapSelected":"§6Jogando no mapa §c%s §6(Votado por §c%s jogadores§6).",
+			"mapVoted":"§eVocê votou no mapa §6%s§e!"
+		},"game":{
+			"deathMessage":{
+				"until1":[
+					"até que",
+					"e",
+					"e acabou"
+				],"foughtWith":"lutou com",
+				"tookDamageFrom":"tomou dano de",
+				"diedFor":"morreu por",
+				"diedInCombat":[
+					"morreu em combate",
+					"foi morto durante batalha"
+				],"fallenInVoid":[
+					"escorregou das bordas",
+					"falhou em parkour",
+					"pulou no void"
+				],"pushInVoid":[
+					"foi empurrado ao void por",
+					"foi jogado ao void por"
+				],"diedFighting":[
+					"morreu em combate com",
+					"foi morto por",
+					"lutou até a morte com"
+				],"fallen":[
+					"caiu á morte",
+					"caiu de um lugar muito alto",
+					"caiu de muito alto",
+					"esqueceu que não podia voar"
+				],"pushed":[
+					"foi empurrado de um lugar muito alto por",
+					"foi jogado da beira da morte por"
+				],"putOnLava":[
+					"foi jogado na lava por %s",
+					"escorregou na lava de %s"
+				],"fallenOnLava":[
+					"tentou nadar na lava",
+					"caiu na sua própria lava",
+					"confundiu lava com suco de maçã"
+				],"suffocated":[
+					"sufocou dentro de seu próprio bloco",
+					"esqueceu que nem tudo quebra as leis da gravidade"
+				],"suffocatedOther":[
+					"foi sufocado dentro do bloco de",
+					"ficou sem ar dentro do bloco de"
+				],"blockDrop":[
+					"morreu por algo que parece um metoro",
+					"recebeu um bloco em sua cabeça",
+					"levou uma blocada"
+				],"blockDropOther":[
+					"morreu pelo \"metoro\" de %s",
+					"recebeu o bloco de %s em sua cabeça",
+					"levou uma blocada de %s"
+				],"blockDropSuffocated":[
+					"recebeu uma blocada e sufocou no bloco",
+					"foi atingido por um metoro e morreu preso dentro"
+				],"blockDropSuffocated":[
+					"recebeu uma blocada de %s e sufocou no seu bloco",
+					"foi atingido pelo metoro de %s e morreu preso dentro"
+				],"exploded":[
+					"explodiu",
+					"foi explodido"
+				],"explodedEntity":[
+					"foi explodido por um",
+					"explodiu graças á um"
+				]
+			},"damages":{
+				"blockExplosion":{
+					"name":"Explosão",
+					"description":"Dano da explosão de um bloco explosivo (Dinamite ou outro)."
+				},"contact":{
+					"name":"Contato",
+					"description":"Dano causado por contato á um bloco como Cacto."
+				},"custom":{
+					"name":"Customizado",
+					"description":"Dano do anti-cheat."
+				},"drowning":{
+					"name":"Afogamento",
+					"description":"Dano de ficar muito tempo abaixo de água."
+				},"entityAttack":{
+					"name":"Ataque de Entidade",
+					"description":"Ataque de uma Entidade"
+				},"entityExplosion":{
+					"name":"Explosão de Entidade",
+					"description":"Dano da explosão de uma entidade explosiva (Creeper ou outro)."
+				},"fall":{
+					"name":"Queda",
+					"description":"Dano dado ao cair de uma alta distância."
+				},"fallingBlock":{
+					"name":"Bloco em Queda",
+					"description":"Dano de ser atingido por um bloco em queda (Areia, Cascalho ou outro)."
+				},"fire":{
+					"name":"Fogo",
+					"description":"Dano causado por contato direto áo fogo."
+				},"fireTick":{
+					"name":"Pegando Fogo",
+					"description":"Dano causado indiretamente por fogo no personagem."
+				},"lava":{
+					"name":"Lava",
+					"description":"Dano causado por nadar na lava."
+				},"lighting":{
+					"name":"Raio",
+					"description":"Dano por ser atingido por um raio."
+				},"magic":{
+					"name":"Poção",
+					"description":"Dano causado por uma poção."
+				},"melting":{
+					"name":"Derreter",
+					"description":"Dano causado ao derreter por chuva ou nadar."
+				},"poison":{
+					"name":"Veneno",
+					"description":"Dano causado por ter o efeito Veneno."
+				},"projectile":{
+					"name":"Projectile",
+					"description":"Dano ao ser atingido por um projétil."
+				},"starvation":{
+					"name":"Fome",
+					"description":"Dano causado por fome extrema."
+				},"suicide":{
+					"name":"Suicídio",
+					"description":"Suicidou-se."
+				},"thorns":{
+					"name":"Espinhos",
+					"description":"Dano causado por atingir jogador com armadura que possui encantamento Espinhos.",
+					"descriptionPlayer":"Dano causado por atingir %s."
+				},"void":{
+					"name":"Void",
+					"description":"Dano causado por exposição áo Void."
+				},"wither":{
+					"name":"Decomposição",
+					"description":"Dano causado por ter o efeito Decomposição."
+				}
+			},"dollarsReceive":"§a+$%s"
+		},"scoreboard":{
+			"preGame":{
+				"maps":"Mapas:",
+				"votes":"votos",
+				"vote":"voto",
+				"kit":"Kit:"
+			},"game":{
+				"kills":"Kills:",
+				"assists":"Assists:",
+				"lives":"Vidas:"
+			},"players":"Jogadores:"
+		}
+	}
+}

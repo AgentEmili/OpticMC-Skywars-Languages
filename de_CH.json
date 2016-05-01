@@ -1,0 +1,155 @@
+ "langData":{
+        "langOwn":"Deustch",
+        "langMiniOwn":"Deustch",
+        "langPortuguese":"Alemão",
+        "langSpanish":"Alemán",
+        "langFrancais":"Allemand",
+		"langEnglish":"German",
+        "translators":"DoorJesus;"
+    },"game":{
+        "lobdurch":{
+            "startingCountdown":{
+                "message":"§6Spiel beinnend in§c%s seconds§6."
+            },
+            "playerJoin":"§c%s §6ist beigetreten! (§c%s§6/§c64§6)",
+            "playerJoinSpectator":"§c%s §6beigetreten wie §c§lspectator§6.",
+            "serverMapSelected":"§6Du bist spielen auf der Karte §c%s §6(Voted durch §c%s players§6).",
+            "mapVoted":"§eDu für Karte gewählt §6%s§e!"
+        },"game":{
+            "deathMessage":{
+                "until1":[
+                    "bis",
+                    "und",
+                    "und enden"
+                ],"foughtWith":"kämpfte mit",
+                "tookSchädenFrom":"wurde beschädigt durch",
+                "diedFor":"gestorben für",
+                "diedInCombat":[
+                    "während des Kampfes gestorben",
+                    "wurde auf einen Kampf getötet"
+                ],"fallenInVoid":[
+                    "von den Grenzen gerutscht",
+                    "sprang ins Leere"
+                ],"pushInVoid":[
+                    "wurde in die Leere geworfen durch",
+                    "wurde geschoben direkt auf Leere"
+                ],"diedFighting":[
+                    "im Kampf starb durch",
+                    "wurde getötet von",
+                    "bis zu ihrem Tod kämpfte mit"
+                ],"fallen":[
+                    "hat in den Tod gefallen",
+                    "von einem hohen Platz gefallen",
+                    "tat nicht prallen",
+                    "forgot they could not fly"
+                ],"pushed":[
+                    "wurde von einem Ort zu hoch geschoben durch",
+                    "wurde in die Grube des Todes geworfen durch"
+                ],"putOnLava":[
+                    "wurde in Lava geworfen durch %s",
+                    "schlüpfte in %s's Lava"
+                ],"fallenOnLava":[
+                    "versucht, in Lava zu schwimmen",
+                    "fiel in ihre eigenen Lava Pool",
+                    "Lava versucht Apfelsaft zu trinken, die tatsächlich ist"
+                ],"suffocated":[
+                    "auf ihrem eigenen Block erstickte",
+                    "vergaß nicht alles bricht die Gesetze der Schwerkraft"
+                ],"suffocatedOther":[
+                    "wurde in den Block erstickte von",
+                    "verloren Sauerstoff auf den Block der"
+                ],"blockDrop":[
+                    "starb durch etwas, das wie ein Meteor sah",
+                    "durch einen Block in den Kopf getroffen wurde",
+                    "wurde blockiert"
+                ],"blockDropOther":[
+                    "starb durch %s's \"Meteor\"",
+                    "bekam gesperrt durch %s"
+                ],"blockDropSuffocated":[
+                    "wurde blockiert durch %s und in ihrem Block erstickte",
+                    "es waschen durch %s's Meteor und starb in ihm"
+                ],"exploded":[
+                    "sprengten",
+                    "bekam sprengten durch %s"
+                ],"explodedEinheit":[
+                    "bekam sprengten durch ein",
+                    "bekam sprengten Dank"
+                ]
+            },"Schädens":{
+                "blockExplosion":{
+                    "name":"Explosion",
+                    "description":"Verursachter Schaden durch ein explosives Ereignis explosive Block."
+                },"contact":{
+                    "name":"Kontakt",
+                    "description":"Schäden Durch Kontakt zu einem Block wie Kaktus."
+                },"custom":{
+                    "name":"Brauch",
+                    "description":"Anti-cheat Beschädigung."
+                },"drowning":{
+                    "name":"Ertrinken",
+                    "description":"Schaden von dem Versuch, ohne die Fähigkeit zu schwimmen zu schwimmen."
+                },"EinheitAttack":{
+                    "name":"Einheit Angriff",
+                    "description":"Angriff von einer Entität."
+                },"EinheitExplosion":{
+                    "name":"Einheit Explosion",
+                    "description":"Explosion Verursachter Schaden durch einen explodierenden Schlingpflanze."
+                },"fall":{
+                    "name":"Fall",
+                    "description":"Schaden erlitten von einem hohen Abstand zu fallen."
+                },"fallingBlock":{
+                    "name":"Falling Block",
+                    "description":"Treffer Durch einen fallenden Block getroffen zu werden."
+                },"fire":{
+                    "name":"Feuer",
+                    "description":"Schäden Durch den direkten Kontakt zu feuern."
+                },"fireTick":{
+                    "name":"Auf Feuer",
+                    "description":"Verursachter Schaden indirekt Durch sein auf Feuer."
+                },"lava":{
+                    "name":"Lava",
+                    "description":"Verursachter Schaden zum Schwimmen auf Lava."
+                },"lighting":{
+                    "name":"blitz",
+                    "description":"Verursachter Schaden durch vom Blitz getroffen."
+                },"magic":{
+                    "name":"Trank",
+                    "description":"Verursachter Schaden durch einen Trank Durch."
+                },"poison":{
+                    "name":"Gift",
+                    "description":"Verursachter Schaden durch mit der Giftwirkung."
+                },"projectile":{
+                    "name":"Projektil",
+                    "description":"Verursachter Schaden durch wobei Durch ein Projektil getroffen."
+                },"starvation":{
+                    "name":"Hungernd",
+                    "description":"Verursachter Schaden durch extremen Hunger."
+                },"suicide":{
+                    "name":"Selbstmord",
+                    "description":"commited Selbstmord."
+                },"thorns":{
+                    "name":"Dornen",
+                    "description":"Verursachter Schaden durch Schlagen Kollision mit einem Spieler mit Rüstung die Dornen enchanment hat.",
+                    "descriptionPlayer":"Verursachter Schaden durch schlagen %s."
+                },"void":{
+                    "name":"Leere",
+                    "description":"Verursachter Schaden durch Eine Expedition in die Leere."
+                },"wither":{
+                    "name":"Vernichtend",
+                    "description":"Verursachter Schaden durch bekommen der Wither Wirkung."
+                }
+            },"dollarsReceive":"§a+$%s"
+        },"scoreboard":{
+            "preGame":{
+                "maps":"Karten:",
+                "votes":"stimmen",
+                "vote":"Abstimmung",
+                "kit":"Ausrüstung:"
+            },"game":{
+                "kills":"Kills:",
+                "assists":"Assists:",
+                "lives":"Leben:"
+            },"players":"Spieler:"
+        }
+    }
+}
